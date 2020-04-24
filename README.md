@@ -29,14 +29,18 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-
+- forEach is meant to just iterate for the array, and changes the array it iterates over. map is immutable, so it doesn't change the array it is using as reference, and is specifically meant to convert data
 2. What is the difference between a function and a method?
-
+- A function is a block of code that can be invoked by name, a method is a block of code that can be invoked by name that is associated to an object
 3. What is closure?
-
+- Closure gives access to inner functions to reference points in memory that pertain to outerfunctions.
 4. Describe the four rules of the 'this' keyword.
-
+- 1. Is the function called by new?
+- 2. Is the function called by call(), apply(), or bind()?
+- 3. Is the function called as a method, ie: obj.func()?
+- 4. Is the function called in the global scope?
 5. Why do we need super() in an extended class?
+- So that the child class inherits the attributes of the parent
 
 ## Project Set up
 
