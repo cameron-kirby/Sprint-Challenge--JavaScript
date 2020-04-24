@@ -30,8 +30,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 - forEach is meant to just iterate for the array, and changes the array it iterates over. map is immutable, so it doesn't change the array it is using as reference, and is specifically meant to convert data
-2. What is the difference between a function and a method?
-- A function is a block of code that can be invoked by name, a method is a block of code that can be invoked by name that is associated to an object
+2. plain the difference between a callback and a higher order function.
+- A callback function is a function meant to be passed into a higher order function as a parameter. A higher order function is the reciever of a callback function
 3. What is closure?
 - Closure gives access to inner functions to reference points in memory that pertain to outerfunctions.
 4. Describe the four rules of the 'this' keyword.
